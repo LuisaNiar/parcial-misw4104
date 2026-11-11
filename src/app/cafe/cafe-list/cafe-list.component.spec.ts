@@ -53,4 +53,10 @@ describe('CafeListComponent', () => {
     expect(component.totalOrigen).toBe(1);
     expect(component.totalBlend).toBe(2);
   });
+
+  it('should show the totals by type', () => {
+    const totals = element.querySelectorAll('p.total');
+    expect(totals[0].textContent).toContain('Total café de origen: 1');
+    expect(totals[1].textContent).toContain('Total café blend: 2');
+  });
 });
