@@ -1,0 +1,17 @@
+.brand {
+  font-family: 'Indie Flower', cursive;
+  font-size: 32px;
+  margin: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.footer {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 13px;
+}
